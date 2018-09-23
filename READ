@@ -1,0 +1,13 @@
+This is a Gradle based micro-services created using Spring Boot 2.0.3 release which is responsible for storing/accessing transactions of account. 
+
+Assumptions
+1.	Customer can create secondary account only if he/she has primary account first.
+2.	There will be only one secondary account associated with customer.
+
+Features added
+1.	Feign Client is used for inter micro-service communication.
+2.	API Documentation using Swagger.
+3.	Test case are written using groovy and as part of Spock Framework .
+
+Swagger API Endpoints
+	Transaction- Service : http://localhost:9090/swagger-ui.html
